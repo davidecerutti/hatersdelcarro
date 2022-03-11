@@ -1,0 +1,12 @@
+.foot{
+	bottom: 5px;
+	background-color: #F0B666; 
+	width:100%;
+	height: 250px;
+}
+.link{
+	position: absolute;
+	height: 100px;
+	padding-left: 8px;
+	padding-top: 100px;
+}
