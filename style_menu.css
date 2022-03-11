@@ -2,7 +2,7 @@
   .nav {
     height: 60px;
     width: 100%;
-    background-color: #1F4590;
+    background-color: #ffffff;
     position: relative;
   }
   
@@ -32,7 +32,7 @@
   .nav > .nav-links > ul li a{
     display: block;
     padding: 0 8px;
-    color: #fff;
+    color: #1F4590;
     line-height: 40px;
     font-size: 18px;
     text-decoration: none;
@@ -43,8 +43,6 @@
     .nav > .nav-links > ul li a.active{
      background-color: #04AA6D;
 	 color: white;
-	
-
   }
   
   .nav > .nav-links > ul{
@@ -57,14 +55,13 @@
   }
   .nav > .nav-links > ul li{
     display: inline-block;
-    background-color: #1F4590;
-	
-    
+    background-color: #ffffff;
     
   }
-  .nav > .nav-links > ul li:hover{
+  .nav > .nav-links > ul li a:hover{
       background-color: #0b65af;
       border-radius: 5px;
+	  color: white;
   }
   
   .nav > #nav-check {
@@ -124,7 +121,6 @@
     }
 
     /*   */
-
 
  @media screen and (min-width: 640px) and (max-width: 1000px) {
       .nav > .nav-links > ul li{
